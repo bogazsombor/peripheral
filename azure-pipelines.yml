@@ -20,8 +20,8 @@ stages:
 
     - script: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r ./ip_score_predictor/requirements.txt
       displayName: 'Install dependencies'
 
-    - script: python -m py_compile iplscore.py
+    - script: python -m py_compile ./ip_score_predictor/iplscore.py
       displayName: 'Test compilation'
