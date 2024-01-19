@@ -23,5 +23,5 @@ stages:
         pip install -r ./ipl_score_predictor/fugg.txt
       displayName: 'Install dependencies'
 
-    - script: python -m py_compile iplscore.py
+    - script: python -m py_compile ./ipl_score_predictor/iplscore.py
       displayName: 'Test compilation'
