@@ -20,7 +20,7 @@ stages:
 
     - script: |
         python -m pip install --upgrade pip
-        pip install -r fugg.txt
+        pip install -r ./ipl_score_predictor/fugg.txt
       displayName: 'Install dependencies'
 
     - script: python -m py_compile iplscore.py
