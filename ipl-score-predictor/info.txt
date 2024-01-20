@@ -1,4 +1,4 @@
-A webalkalmazás az 7638 port-ra közvetít.
+A webalkalmazás az (régi: 7638) új: 8080 port-ra közvetít.
 A futáshoz szükséges függőségeket a fugg.txt fájl tartalmazza.
 Az alkalmazást a iplscore.py Python kód futtatásával indítjuk el.
 A webalkalmazás futtatható a Python 3.11-es verzióval, de akár régebbiekkel is.
